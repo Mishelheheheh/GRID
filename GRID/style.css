@@ -1,0 +1,71 @@
+.container {
+    margin: 0 auto;
+    border: 3px solid black;
+    display: grid;
+    /* justify-content: baseline; */
+    /* ALL CONTENT IS CONTROLLED */
+    /* justify-items: center; */
+    /* ALL ITEMS WITHIN THE CONTAINER IS CONTROLLED THUS PUTTING IT IN CENTER */
+    /* grid-template-rows: repeat(4, 100px);
+ grid-template-columns: repeat(auto-fit, minmax (100px,1fr)); */
+    /* responsive*/
+/* grid-template-columns:  100px 100px 100px 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px; */
+     grid-template-areas: 
+     'header header'
+    'main aside'
+    'footer footer'; 
+    /* TO LINK AND DIVIDE CONTENT SEPERATELY */
+/* grid-template-columns: repeat(6, 1fr); */
+    /* grid-template-rows: 1fr 1fr 1fr minmax(100px, 2fr); */
+    /* grid-auto-rows: 100px; */
+    /* put rows easier */
+    /* grid-gap: 1em 2em; */
+    /* grid-template-rows: repeat(2, 30px); */
+   
+}
+
+.item {
+    border: 4px solid pink;
+
+}
+
+/* .item-1 {
+             /* grid-area: 1 / 1 / 4 / 9; */
+             /* SHORT HAND TO MAKE GRID AREAS */
+    /* grid-area: header;
+    
+}   */ */
+
+/* .item-2 {
+    /* grid-row: span 2 ; */
+    /* TAKE ALL THE SPACE GIVEN */
+    /* grid-column: span 2;
+                 grid-area: 3 / 5 / 7  / 8;
+    z-index: 1; */
+    /* ALLOW THE ITEM TO OVERLAP MAKING USED IN LAYERING */
+}  */
+/* .item-3 {
+    grid-area: 4 / 1 / -1/ -1;
+    /*short hand*/
+}    */
+
+/* .item-1{
+    grid-area: header;
+    justify-item: center
+    /* MAKE THE ITEM CENTER WITHIN THE SIZE OF THE GRID */
+} */
+
+/* .item-2 {
+ grid-area: main;
+ /* LINKED TO THE COMMAND GRID TEMPLATE AREA USING THE SINGLE QOUTE */
+}
+
+/* .item-3 {
+    grid-area: aside;
+}
+
+.item-4 {
+    grid-area: footer;
+} */ */
+
